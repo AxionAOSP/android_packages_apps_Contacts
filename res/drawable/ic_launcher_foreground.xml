@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: 2022 The LineageOS Project
+     SPDX-FileCopyrightText: 2025 The AxionAOSP
      SPDX-License-Identifier: Apache-2.0
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-  <group>
-    <clip-path
-        android:pathData="M0,0h108v108h-108z"/>
-    <path
-        android:pathData="M64,64C64,72.837 57,76 48,76C39,76 32,72.837 32,64C32,51.163 39,44 48,44C57,44 64,51.163 64,64Z"
-        android:fillColor="#193057"/>
-    <path
-        android:pathData="M58,62C55.569,63.255 51.821,64 48,64C44.179,64 40.431,63.255 38,62C39.093,65.47 41.333,70 48,70C54.667,70 56.907,65.47 58,62Z"
-        android:fillColor="#ffffff"/>
-    <path
-        android:pathData="M28.54,28.54m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0"
-        android:fillAlpha="0.6">
-      <aapt:attr name="android:fillColor">
-        <gradient
-            android:gradientRadius="72"
-            android:centerX="28.54"
-            android:centerY="28.54"
-            android:type="radial">
-          <item android:offset="0" android:color="#19FFFFFF"/>
-          <item android:offset="1" android:color="#00FFFFFF"/>
-        </gradient>
-      </aapt:attr>
-    </path>
-  </group>
+    android:viewportHeight="108"
+    android:viewportWidth="108">
+
+    <group
+        android:scaleY="0.45"
+        android:scaleX="0.45"
+        android:pivotY="54"
+        android:pivotX="54">
+        <path
+            android:fillColor="#3faf7c"
+            android:pathData="m55,1c-12.52,0 -22.66,10.14 -22.66,22.65s10.14,22.66 22.66,22.66 22.65,-10.15 22.65,-22.66S67.52,1 55,1ZM66.8,33.76c-0.1,0.83 -0.56,1.55 -1.27,1.99 -3.17,1.93 -6.81,2.96 -10.53,2.96s-7.37,-1.02 -10.53,-2.96c-0.71,-0.44 -1.17,-1.16 -1.27,-1.99 -0.1,-0.83 0.18,-1.64 0.77,-2.23 0.88,-0.88 2.25,-1.04 3.32,-0.39 2.32,1.41 4.98,2.16 7.71,2.16s5.39,-0.75 7.7,-2.16c1.07,-0.65 2.44,-0.49 3.32,0.39 0.51,0.51 0.79,1.19 0.79,1.9 0,0.11 0,0.22 -0.02,0.33Z"
+            android:strokeWidth="0"/>
+        <path
+            android:fillColor="#024d49"
+            android:pathData="m97.12,86.04c1.04,4.29 -0.69,8.77 -4.33,11.27 -10.75,7.38 -23.77,11.7 -37.79,11.7s-27.04,-4.32 -37.79,-11.7c-3.64,-2.5 -5.37,-6.97 -4.33,-11.27 4.61,-18.99 21.72,-33.09 42.12,-33.09s37.52,14.1 42.12,33.09Z"
+        android:strokeWidth="0"/>
+    </group>
 </vector>
